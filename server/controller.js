@@ -1,4 +1,4 @@
-const apiKey = 'sfZ9PduarBsIPajsjRPvUw';
+const apiKey = process.env.API_TEST_KEY;
 const EasyPost = require('node-easypost');
 const api = new EasyPost(apiKey);
 
